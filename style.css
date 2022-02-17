@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Pacifico', cursive;
-    background-image: url("/bg.jpg");
+    background-image: url('./bg.jpg');
     overflow: hidden;
 }
 
