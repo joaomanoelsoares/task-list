@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Pacifico', cursive;
+    background-image: url("/bg.jpg");
+    overflow: hidden;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 70px;
+    color: #F6F8F9
+  
+}
+
+#funcionamento {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+#subfunction{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left: 560px;
+    top: 140px;
+    font-size: 20px;
+    color:white;
+    text-shadow: #424242;
+}
+
+.container {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    padding: 250px;
+    margin-top: 50px;
+    margin-left: 150px;
+
+}
+
+.container input[type=text] {
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 295px;
+    padding: 5px;
+    width: 300px;
+    font-size: 16px;
+    border-width: 0px;
+    border-color: #CCCCCC;
+    background-color: transparent;
+    color:transparent;
+    border: solid white 3px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px rgba(66, 66, 66, .100);
+    text-shadow: -50px 0px 5px rgba(66, 66, 66, .75);
+}
+
+.container button {
+    background-color: #e2e2e2;
+    /* Green */
+    position: absolute;
+    left: 800px;
+    bottom: 10px;
+    opacity: 0.9;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#lista-tarefas{
+    position: absolute;
+    border: 2px solid white;
+    height: 550px;
+    box-shadow: #424242;
+    width: 350px;
+}
+
+#task-to-do{
+    top: 250px;
+    left: 5px;
+    position: absolute;
+    font-size: 30px;
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(19, 19, 19);
+}
+
+.task-div {
+    position: absolute;
+    display: flex;
+    width: 30%;
+    top: 250px;
+}
+
+.task-div li {
+    position: relative;
+    top: 55px;
+    margin-left: 45px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    background: #F6F8F9;
+    background: -webkit-radial-gradient(circle farthest-corner at center center, #F6F8F9 0%, #E5EBEE 30%, #D7DEE3 60%, #F5F7F9 100%);
+    background: -moz-radial-gradient(circle farthest-corner at center center, #F6F8F9 0%, #E5EBEE 30%, #D7DEE3 60%, #F5F7F9 100%);
+    background: radial-gradient(circle farthest-corner at center center, #F6F8F9 0%, #E5EBEE 30%, #D7DEE3 60%, #F5F7F9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #CCCCCC;
+}
+
+#remover-tarefa{
+    left: 600px;
+    background-color: red;
+    color: white;
+}
+
+#criar-tarefa{
+    color: white;
+    background-color: green;
+}
+
+li{
+    cursor: pointer;
+}
+
+#task-done-text{
+    top: 255px;
+    left: 1225px;
+    position: absolute;
+    font-size: 30px;
+    color: green;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+
+.done-div{
+
+    right: 5px;
+    top: 253px;
+    position: absolute;
+    border: 2px solid white;
+    height: 550px;
+    box-shadow: #424242;
+    width: 370px;
+}
+
+.done-item{
+    position: relative;
+    top: 30px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    background: #F6F8F9;
+    background: -webkit-radial-gradient(circle farthest-corner at center center, #F6F8F9 0%, #E5EBEE 30%, #D7DEE3 60%, #F5F7F9 100%);
+    background: -moz-radial-gradient(circle farthest-corner at center center, #F6F8F9 0%, #E5EBEE 30%, #D7DEE3 60%, #F5F7F9 100%);
+    background: radial-gradient(circle farthest-corner at center center, #F6F8F9 0%, #E5EBEE 30%, #D7DEE3 60%, #F5F7F9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #CCCCCC;
+}
+
+.noselect{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+     user-select: none;
+}
