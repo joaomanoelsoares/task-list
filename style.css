@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Pacifico', cursive;
-    background-image: url('./bg.jpg');
+    background-image: url("https://joaomanoelsoares.github.io/task-list/bg.jpg");
     overflow: hidden;
 }
 
